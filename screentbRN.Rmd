@@ -1,0 +1,95 @@
+---
+output:
+  html_document:
+    self_contained: no
+---
+### References
+
+<a href="http://www.who.int/tb/tbscreening/en/" target="_blank">Systematic screening for active tuberculosis: principles and recommendations</a>
+
+<a href="http://www.who.int/tb/tbscreening/en/" target="_blank">Systematic screening for active tuberculosis: an operational guide</a>
+
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/23407219" target="_blank">Lönnroth K, Corbett E, Golub J, Godfrey-Faussett P, Uplekar M, Weil D, Raviglione M. Systematic screening for active tuberculosis: justification, definitions and key considerations. Int J Tuberc Lung Dis 2013; 17: 289–298</a>
+
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/23485377" target="_blank">Kranzer K, Afnan-Holmes H, Tomlin K, Golub JE, Shapiro A, Schaap A, Corbett L, Lönnroth K, Glynn JR. The benefits to communities and individuals of screening for active tuberculosis disease: a systematic review. Int J Tuberc Lung Dis 2013; 17: 432–446</a>
+
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/24025375" target="_blank">Uplekar M, Cresswell J, Ottmani S, Weil D, Lönnroth K. Programmatic approaches to screening for active tuberculosis. Int J Tuberc Lung Dis 2013; 17: 1248–1256</a>
+
+<a href="http://www.biomedcentral.com/1471-2334/14/532" target="_blank">van't Hoog AH, Onozaki I, Lönnroth K. Choosing algorithms for TB screening: a modelling study to compare yield, predictive value and diagnostic burden. BMC Infectious Diseases 2014; 14: 532. doi: 10.1186/1471-2334-14-532.</a>
+
+<a href="http://www.biomedcentral.com/1471-2458/13/97/comments" target="_blank">Nishikiori N. and Van Weezenbeek C., “Target prioritization and strategy selection for active case-finding of pulmonary tuberculosis: a tool to support country-level project planning,” BMC Public Health, 2013.</a>
+
+<strong>See <a href="http://who.int/tb/tbscreening/en/" target="_blank">WHO website</a> for further information.</strong>
+
+
+### Release notes
+##### Version 0.96 (10 May 2016) - **Custom tests and scenario storage function**
+* Updates
+    + Three user-defined custom tests created in the test panel, with the defined parameters displayed at the bottom of the algorithm panel
+    + Scenario storage function where users can download ready-made scenarios (to be updated)
+    + Algorithm names with long characters folded and/or vertically positioned in figures to avoid the algorithm labels to disappear
+* To do for future implementation
+    + Cost estimates for each test to be automatially pulled data from regional estimate. 
+    + Automatical selection of “any symptom screen” (high HIV or low HIV) based on the HIV prevalence of the country?
+    
+##### Version 0.95 (31 Mar 2016) - **Bugfix and changes in risk group panel**
+* Updates
+    + Fixed a bug that caused endless loop when changing parameters of relative risk and TB prevalence
+    + Fixed a problem that some parameters were not restored when loading a scenario file
+    + Changes in the design and layout of the Risk Group panel (selected parameters displayed in blue, background color for each group)
+    + Functions to disable unnecessary input boxes when check box is selected
+    + Updated internal global TB database (estimates available up to 2014)
+    + Some changes in default values (country, year, population size, graphic options, etc)  
+
+##### Version 0.94 (18 Aug 2015) - **Removed some default values**
+* Updates
+    + Deleted default values (TB risks and acceptability) without reference
+    + Deleted default risk groups without defaut TB risk values
+    + Display references for default TB risk values and acceptance
+    
+##### Version 0.93 (29 June 2015) - **PDF download function**
+* Updates
+    + Output graphs can be downloaded as PDFs
+    + Minor bugfix (issues of NNS page)
+    
+##### Version 0.92 (10 June 2015) - **Scenario management function**
+* Updates
+    + Pilot deployment of **Scenario management panel**
+       - Almost all user input can be saved as a single scenario file that can be uploaded anytime later
+       - Scenario files can be distributed for wider use (e.g. can be used to develop specific country scenarios, educational, illustrative scenarios, etc)  
+  
+##### Version 0.91 (07 June 2015)
+* Updates
+    + Updated internal global TB database (estimates available up to 2013)
+    + The total number of test algorithms increased up to 12 (10 pre-defined + 2 user defined custom algorithms)  
+    + More flexibility in test combinations in the algorithm panel  
+    + Test cost split into diagnostic and operational cost (not capital vs recurrent)
+    + Output table: "Case" changed to "Prev.Case" and included numbers of "missed cases"
+  
+##### Version 0.90 (25 May 2015) - Presentation for EURO TB Meeting
+* Updates
+     * A radio button allows you to choose whether you want to use WHO_s prevalence estimate or directly input baseline prevalence by number. 
+     * Baseline prevalence can be set by direct entry 
+
+##### Version 0.80 (21 May 2015)
+* Update 
+     * Update the internal database to include global TB estimate up to 2013. 
+     * Option to define prevalence directly (tick box to use _fixed prevalence_)
+     * Option to define population size directly (tick box to use _fixed population size_)
+     * Reachability & acceptability panel installed and functional
+     * Diagnostic cost to be merged into total cost
+     * Algorithm penel updaded (fixed algorithm to flexible algorithm)
+
+##### Version 0.70 (06 May 2015)
+* Updates
+     * Risk group can be selected from drop down menu (or you can type by keyboard) 
+     * Option to define prevalence directly (tick box to use _fixed prevalence_)
+     * Option to define population size directly (tick box to use _fixed population size_)
+
+##### Version Zero - a minimum viable product (Oct 2014)
+  
+  
+  
+  
+
+
